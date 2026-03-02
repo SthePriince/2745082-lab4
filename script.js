@@ -45,7 +45,7 @@ async function searchCountry(countryName) {
                 const borderCountry = borderData[0];
 
                 borderSection.innerHTML += `
-                    <div class="border-card">
+                    <div class="country-card">
                         <p>${borderCountry.name.common}</p>
                         <img src="${borderCountry.flags.svg}" alt="${borderCountry.name.common} flag">
                     </div>
