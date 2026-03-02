@@ -32,7 +32,7 @@
 }
 .error {
     color: red;
-    font-weight:bolder;
+    font-weight:bold;
     margin-top: 15px; /* error color */
     /* Additional styling */
 }
